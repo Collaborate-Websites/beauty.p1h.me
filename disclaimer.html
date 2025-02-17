@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Disclaimer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            color: #333;
+            padding: 20px;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2rem 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            text-align: left;
+            width: 100%;
+            max-width: 800px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            margin-top: 3rem;
+        }
+
+        h1 {
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: rgba(255, 255, 255, 0.8);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Website Usage Disclaimer</h1>
+        <p>By accessing and using this website, you acknowledge that you are doing so at your own risk. This website is intended solely for personal testing purposes and is not intended for general public use or malicious activity. Any use of this website outside of its intended purpose is strictly prohibited.</p>
+
+        <p>This website collects data, including but not limited to IP addresses, for internal testing purposes only. The collected information will not be used for any malicious activities or shared with third parties, except as required by law. Please be advised that this website is not intended to be publicly accessible or used for any purpose other than testing.</p>
+
+        <p>By using this website, you agree not to engage in any harmful, malicious, or unlawful activities. The website owner reserves the right to block access or take appropriate action against users who violate these terms.</p>
+
+        <p>If you do not agree with the terms outlined here, you should immediately cease using this website.</p>
+    </div>
+</body>
+</html>
